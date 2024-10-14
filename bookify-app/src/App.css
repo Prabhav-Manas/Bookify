@@ -1,0 +1,76 @@
+/* #22092C */
+/* #872341 */
+/* #BE3144 */
+/* #F05941 */
+
+.link {
+  text-decoration: none;
+}
+.brand {
+  position: relative;
+}
+.signOut {
+  position: absolute;
+  right: 40px;
+}
+.cart {
+  position: absolute;
+  right: 110px;
+}
+input {
+  border: none !important;
+  border-bottom: solid 1px #000 !important;
+  border-radius: 0px !important;
+}
+input:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.signUpHeader {
+  color: #872341;
+}
+.eyeInput {
+  position: relative;
+}
+.eyeIcon {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.submitBtn {
+  background-color: #22092c !important;
+}
+.listFormHeader {
+  color: #22092c !important;
+}
+.btn {
+  border-radius: 0px !important;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  left: 0;
+}
+.link {
+  cursor: pointer;
+  text-decoration: none;
+}
+.bgNavColor {
+  background-color: #872341;
+}
+.navbar-toggler {
+  background-color: #fff !important;
+}
+.qtyBox {
+  border: solid 1px #000 !important;
+  max-width: 80px !important;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  navItem {
+    display: block;
+  }
+}
